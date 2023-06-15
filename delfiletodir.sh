@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 read -p “Введите путь к директории”
-for directory  in ~/*
+for directory in ~/*
    do
 if [ -d “$directory” ] 
     rm –v *.bak *.tmp *.backup 
