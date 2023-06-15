@@ -8,3 +8,4 @@ if [  -d “$directory” ]
 else:
    echo “Директория не найдена”
 fi
+done
