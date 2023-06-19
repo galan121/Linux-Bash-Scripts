@@ -8,9 +8,9 @@ if [ -d “$file” ]
          rm –v *.bak *.tmp *.backup 
          echo “Заданные файлы удалены ”
      else
-         echo “Директория не найдена”
+         echo “ Директория не найдена ”
        
-fi
+ fi
 
   
 
