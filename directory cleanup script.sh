@@ -1,4 +1,5 @@
 #!/bin/bash
+
 read -p “Введите путь к директории”
 for file in ~/*
    do
