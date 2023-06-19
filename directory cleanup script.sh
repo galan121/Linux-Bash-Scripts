@@ -1,10 +1,12 @@
 #!/bin/bash
 read -p “Введите путь к директории”
-for directory in ~/*
+for file in ~/*
    do
-if [ -d “$directory” ] 
-    rm –v *.bak *.tmp *.backup 
-    echo “Заданные файлы удалены из директории”
+if [ -d “$file” ] 
+     then 
+       echo 'Указанная дирректория найдена , произвожу удаление'
+       rm –v *.bak *.tmp *.backup 
+         echo “Заданные файлы удалены из директории”
 else:
     echo “Директория не найдена”
 fi
