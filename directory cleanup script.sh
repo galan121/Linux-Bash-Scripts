@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/bin/bash
 read -p “Введите путь к директории”
 for directory in ~/*
    do
