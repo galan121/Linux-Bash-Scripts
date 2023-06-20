@@ -4,6 +4,7 @@ FILE=/home/andrey/DZ_4
 if [ -e "$FILE" ]; 
    then
        echo "Директория найдена , произвожу удаление"
+       cd $FILE
        rm –v *.bak *.tmp *.backup 
        echo "Заданные файлы удалены"
     else
