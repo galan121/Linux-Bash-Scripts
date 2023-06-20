@@ -9,4 +9,4 @@ if [ -e "$FILE" ];
     else
        echo "Директория не найдена"
     exit   
-fi
+ fi
